@@ -217,3 +217,13 @@ footer {
     padding: 20px;
     box-shadow: 0px -1px 2px gray;
 }
+
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+    }
+    .logo {
+        font-size: 40px;
+        margin-top: 5px;
+    }
+}
